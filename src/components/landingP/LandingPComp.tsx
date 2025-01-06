@@ -1,5 +1,7 @@
 import { FaFingerprint } from "react-icons/fa";
 import { MdChat, MdVerifiedUser } from "react-icons/md";
+import Team from "./Team";
+import ContactForm from "./ContactForm";
 
 export default function LandingPage() {
   return (
@@ -80,7 +82,12 @@ export default function LandingPage() {
             </p>
           </div>
         </div>
-        <div></div>
+        <div>
+          <Team />
+        </div>
+        <div>
+          <ContactForm />
+        </div>
       </section>
     </div>
   );

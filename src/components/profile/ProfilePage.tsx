@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookSquare, FaInstagramSquare, FaTwitter } from "react-icons/fa";
+import ProfileSection from "./ProfileSection";
 
 export default function ProfilePage() {
   return (
@@ -67,6 +68,9 @@ export default function ProfilePage() {
             <i className="fab fa-instagram"></i>
           </Link>
         </div>
+      </section>
+      <section className="py-12 bg-white text-center">
+        <ProfileSection />
       </section>
 
       {/* Footer Section */}
